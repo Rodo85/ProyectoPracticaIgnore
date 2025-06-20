@@ -1,0 +1,24 @@
+# 1) Entorno virtual
+venv/
+
+# 2) Caché de Python
+__pycache__/
+*.py[cod]
+
+# 3) Base de datos de desarrollo (SQLite)
+*.sqlite3
+*.db
+
+# 4) Variables de entorno (credenciales)
+.env
+
+# 5) Archivos del sistema operativo
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# 6) Archivos temporales de editores
+*.swp
+.vscode/       # ajustes específicos de VS Code
+
+# 7) Logs
+*.log
